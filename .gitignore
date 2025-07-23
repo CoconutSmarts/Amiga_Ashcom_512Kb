@@ -1,0 +1,41 @@
+# KiCad project files to ignore
+*.bak
+*.tmp
+*.backup
+*.sch-bak
+*.pcb-bak
+*.net
+*.xml
+*.drl
+*.gbr
+*.gbo
+*.gbl
+*.gbp
+*.gtl
+*.gts
+*.gtp
+*.gko
+*.xsl
+*.csv
+*.svg
+*.pdf
+*.step
+*.wrl
+*.zip
+
+# Backup or autosave directories
+.autosave*
+__pycache__/
+cache/
+build/
+output/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Optional: ignore manufacturing outputs
+# /gerbers/
+/fabrication/
+/assembly/
+
