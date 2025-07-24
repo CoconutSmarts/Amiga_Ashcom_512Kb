@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "aa78249d-245e-4f40-822e-739672b24332")
 	(paper "A4")
+	(title_block
+		(title "Ashcom 512Kb expansion card for an Amiga 500")
+		(date "2025-07-23")
+		(rev "1")
+		(comment 1 "Schematic reverse engineered from an Ashcom PCB")
+	)
 	(lib_symbols
 		(symbol "74LS00_1"
 			(pin_names
@@ -16785,6 +16791,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 234.95 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0211003c-e865-492e-bc55-bafd14ab074a")
+		(property "Reference" "#PWR014"
+			(at 234.95 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 234.95 57.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 234.95 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f357b4a4-3b00-4790-a420-5af7ad28ec24")
+		)
+		(instances
+			(project ""
+				(path "/aa78249d-245e-4f40-822e-739672b24332"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 266.7 152.4 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16793,7 +16864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03af5aa9-13df-464b-819f-5ce1d8816af4")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR013"
 			(at 266.7 158.75 0)
 			(effects
 				(font
@@ -16843,7 +16914,7 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "#PWR011")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -16945,7 +17016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0e56bcb9-195d-4e05-96f1-1164ff1bbf8c")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR06"
 			(at 34.29 114.3 0)
 			(effects
 				(font
@@ -16995,7 +17066,7 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "#PWR07")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -17010,7 +17081,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10aae83c-8d01-4473-a022-9e5eb3fc0d41")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 182.88 84.582 0)
 			(effects
 				(font
@@ -17026,7 +17097,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 182.88 92.71 0)
 			(effects
 				(font
@@ -17098,7 +17169,7 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "U6")
+					(reference "U1")
 					(unit 2)
 				)
 			)
@@ -17113,7 +17184,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1a258f89-1122-46e1-8172-91db2aba9f1d")
 		(property "Reference" "RN2"
 			(at 90.1699 71.12 0)
@@ -17126,13 +17196,12 @@
 			)
 		)
 		(property "Value" "22"
-			(at 92.7099 71.12 0)
+			(at 92.71 68.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP8"
@@ -17204,7 +17273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a936681-d77a-412a-bde8-23f8e6ae4eaf")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 226.06 149.86 0)
 			(effects
 				(font
@@ -17254,7 +17323,7 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "#PWR013")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -17270,7 +17339,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23519ee0-eafe-42d0-a71a-3cc2a6e0272f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR08"
 			(at 54.61 193.04 0)
 			(effects
 				(font
@@ -17320,7 +17389,7 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "#PWR03")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -17354,7 +17423,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_LongPads"
 			(at 128.27 167.64 0)
 			(effects
 				(font
@@ -17478,7 +17547,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_C26-LF_D2.1mm_L6.5mm_Vertical"
 			(at 262.89 143.51 0)
 			(effects
 				(font
@@ -17635,7 +17704,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_2x28_P2.54mm_Horizontal"
 			(at 41.91 64.77 0)
 			(effects
 				(font
@@ -17866,7 +17935,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
 			(at 120.65 167.64 0)
 			(effects
 				(font
@@ -17935,7 +18004,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
 			(at 105.41 167.64 0)
 			(effects
 				(font
@@ -17987,7 +18056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4ceed7a7-f9e8-4519-a0c4-539e8d45b550")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR09"
 			(at 55.88 158.75 0)
 			(effects
 				(font
@@ -18037,7 +18106,7 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "#PWR04")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -18071,7 +18140,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
 			(at 40.64 167.64 0)
 			(effects
 				(font
@@ -18189,7 +18258,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_LongPads"
 			(at 96.52 167.64 0)
 			(effects
 				(font
@@ -18313,7 +18382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_LongPads"
 			(at 144.78 167.64 0)
 			(effects
 				(font
@@ -18427,7 +18496,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "22pF"
 			(at 260.35 151.384 0)
 			(effects
 				(font
@@ -18436,7 +18505,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 262.89 149.86 0)
 			(effects
 				(font
@@ -18473,6 +18542,71 @@
 			(project "Amiga_Ashcom_512Kb"
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "579f6e72-f79c-4873-83b9-e7f266890c94")
+		(property "Reference" "#PWR015"
+			(at 201.93 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba026547-cf5c-493b-abb2-1a1c07a19faf")
+		)
+		(instances
+			(project "Amiga_Ashcom_512Kb"
+				(path "/aa78249d-245e-4f40-822e-739672b24332"
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -18681,7 +18815,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-18_W7.62mm_LongPads"
 			(at 242.57 132.08 0)
 			(effects
 				(font
@@ -18781,7 +18915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "789ac50b-e92b-41c8-851f-e1e8ed0ae924")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR01"
 			(at 20.32 114.3 0)
 			(effects
 				(font
@@ -18831,7 +18965,7 @@
 		(instances
 			(project "Amiga_Ashcom_512Kb"
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "#PWR09")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -18864,7 +18998,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
 			(at 137.16 167.64 0)
 			(effects
 				(font
@@ -18934,7 +19068,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_LongPads"
 			(at 113.03 167.64 0)
 			(effects
 				(font
@@ -19039,7 +19173,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "7dc14026-ece1-4d4e-a92f-a2f4d61bddf1")
 		(property "Reference" "RN2"
 			(at 90.1699 66.04 0)
@@ -19052,13 +19185,12 @@
 			)
 		)
 		(property "Value" "22"
-			(at 92.7099 66.04 0)
+			(at 92.71 63.5 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP8"
@@ -19149,7 +19281,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 156.21 92.71 0)
 			(effects
 				(font
@@ -19237,7 +19369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "82f5a57c-ac0d-4305-a00c-5290185874be")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR05"
 			(at 29.21 115.57 0)
 			(effects
 				(font
@@ -19287,7 +19419,7 @@
 		(instances
 			(project "Amiga_Ashcom_512Kb"
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -19302,9 +19434,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "8511746b-2709-4f18-abd4-e25019682c66")
-		(property "Reference" "RN2"
+		(property "Reference" "RN3"
 			(at 90.1699 82.55 0)
 			(effects
 				(font
@@ -19315,13 +19446,12 @@
 			)
 		)
 		(property "Value" "22"
-			(at 92.7099 82.55 0)
+			(at 92.71 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP8"
@@ -19378,7 +19508,7 @@
 		(instances
 			(project "Amiga_Ashcom_512Kb"
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "RN2")
+					(reference "RN3")
 					(unit 3)
 				)
 			)
@@ -19409,7 +19539,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 91.44 85.852 90)
 			(effects
 				(font
@@ -19478,7 +19608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal"
 			(at 64.77 167.64 0)
 			(effects
 				(font
@@ -19538,7 +19668,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "22pF"
 			(at 267.97 151.384 0)
 			(effects
 				(font
@@ -19547,7 +19677,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 270.51 149.86 0)
 			(effects
 				(font
@@ -19615,7 +19745,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_LongPads"
 			(at 210.82 41.91 0)
 			(effects
 				(font
@@ -19721,7 +19851,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9fd04c99-71e1-4956-b006-4cc8e5299d9f")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 29.21 147.3199 0)
 			(effects
 				(font
@@ -19739,7 +19869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
 			(at 24.892 148.59 90)
 			(effects
 				(font
@@ -19775,7 +19905,7 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -19807,7 +19937,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_LongPads"
 			(at 243.84 41.91 0)
 			(effects
 				(font
@@ -20001,7 +20131,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b72e1c30-d6bc-4a9c-8761-8e247b1a8fe6")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 27.94 40.64 0)
 			(effects
 				(font
@@ -20051,7 +20181,7 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -20066,7 +20196,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be241f72-0bdb-4154-9331-5f339d9aaf42")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 187.96 102.362 0)
 			(effects
 				(font
@@ -20082,7 +20212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 187.96 110.49 0)
 			(effects
 				(font
@@ -20154,8 +20284,73 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "U6")
+					(reference "U1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "be4077b8-d144-42b0-8a5e-e0e113118e49")
+		(property "Reference" "#PWR016"
+			(at 167.64 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.894 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a4b0ad9-515d-404a-a113-90dd231132e7")
+		)
+		(instances
+			(project "Amiga_Ashcom_512Kb"
+				(path "/aa78249d-245e-4f40-822e-739672b24332"
+					(reference "#PWR016")
+					(unit 1)
 				)
 			)
 		)
@@ -20234,7 +20429,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c4171409-e178-4ef1-9ef8-758aeec0c2eb")
 		(property "Reference" "RN2"
 			(at 90.1699 68.58 0)
@@ -20247,13 +20441,12 @@
 			)
 		)
 		(property "Value" "22"
-			(at 92.7099 68.58 0)
+			(at 92.71 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP8"
@@ -20326,7 +20519,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c484554a-0ec8-48ea-904d-327c8cdb09fa")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR03"
 			(at 27.94 35.56 0)
 			(effects
 				(font
@@ -20376,7 +20569,7 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "#PWR01")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -20410,7 +20603,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 72.39 167.64 0)
 			(effects
 				(font
@@ -20585,9 +20778,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d16cbbf1-0b47-48e2-afbe-e28e3f998502")
-		(property "Reference" "RN2"
+		(property "Reference" "RN3"
 			(at 90.1699 85.09 0)
 			(effects
 				(font
@@ -20598,13 +20790,12 @@
 			)
 		)
 		(property "Value" "22"
-			(at 92.7099 85.09 0)
+			(at 92.71 82.55 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP8"
@@ -20661,7 +20852,7 @@
 		(instances
 			(project "Amiga_Ashcom_512Kb"
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "RN2")
+					(reference "RN3")
 					(unit 4)
 				)
 			)
@@ -20759,7 +20950,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:780565"
 			(at 83.82 111.76 0)
 			(effects
 				(font
@@ -20813,9 +21004,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "d9f34347-0fb1-4343-a50f-109643ff0cb8")
-		(property "Reference" "RN2"
+		(property "Reference" "RN3"
 			(at 90.1699 80.01 0)
 			(effects
 				(font
@@ -20826,13 +21016,12 @@
 			)
 		)
 		(property "Value" "22"
-			(at 92.7099 80.01 0)
+			(at 92.71 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Array_SIP8"
@@ -20889,7 +21078,7 @@
 		(instances
 			(project "Amiga_Ashcom_512Kb"
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "RN2")
+					(reference "RN3")
 					(unit 2)
 				)
 			)
@@ -20921,7 +21110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_LongPads"
 			(at 143.51 41.91 0)
 			(effects
 				(font
@@ -21043,7 +21232,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-20_W7.62mm_LongPads"
 			(at 176.53 41.91 0)
 			(effects
 				(font
@@ -21166,7 +21355,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
 			(at 26.67 167.64 0)
 			(effects
 				(font
@@ -21218,7 +21407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e8d7e59b-1c69-476f-8e2a-6af711fe1d0c")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR07"
 			(at 45.72 114.3 0)
 			(effects
 				(font
@@ -21268,7 +21457,7 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -21372,7 +21561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f269104e-afc0-4d97-8969-ca19b5b80e82")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 156.21 103.124 0)
 			(effects
 				(font
@@ -21388,7 +21577,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_LongPads"
 			(at 156.21 110.49 0)
 			(effects
 				(font
@@ -21460,7 +21649,7 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "U6")
+					(reference "U1")
 					(unit 4)
 				)
 			)
@@ -21476,7 +21665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f289d6b0-c580-4f85-8e94-a691cde8e443")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR02"
 			(at 26.67 147.32 0)
 			(effects
 				(font
@@ -21526,7 +21715,72 @@
 		(instances
 			(project ""
 				(path "/aa78249d-245e-4f40-822e-739672b24332"
-					(reference "#PWR05")
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 134.62 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ff730390-bbe9-4392-adb5-a34471a43707")
+		(property "Reference" "#PWR017"
+			(at 134.62 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 134.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6ca6f9bc-fabb-4b10-818d-2ef7f659e9b3")
+		)
+		(instances
+			(project "Amiga_Ashcom_512Kb"
+				(path "/aa78249d-245e-4f40-822e-739672b24332"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)

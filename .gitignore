@@ -22,6 +22,7 @@
 *.step
 *.wrl
 *.zip
+*.lck
 
 # Backup or autosave directories
 .autosave*
