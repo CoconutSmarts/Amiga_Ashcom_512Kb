@@ -22,6 +22,25 @@ In summary this seems a stripped down design when compared to the A501.  Does th
 ## Gerbers and PCB Production
 I have not yet printed any PCBs, so this project is currently for documentation purposes only.  Gerber files are included but note these are experimental (ie untested).
 
+## BOM
+
+| Id | Designator | Footprint | Quantity | Designation Supplier | ref |
+| --- | --- | --- | --- | --- | --- |
+|1|C7,C8|C_Disc_D3.0mm_W1.6mm_P2.50mm|2|22pF|
+|2|BT1|Varta_2.4v_150mAh|1|2.4V 150mAh|
+|3|Y9|Crystal_C26-LF_D2.1mm_L6.5mm_Vertical|1|32768Hz|
+|4|C1,C3,C4,C5,C9|C_Axial_L5.1mm_D3.1mm_P7.50mm_Horizontal|5|100nF|
+|5|RN1,RN3,RN2|R_Array_SIP8|3|22ohm|
+|6|D1|D_A-405_P7.62mm_Horizontal|1|1N914|			
+|7|U1|DIP-14_W7.62mm_LongPads|1|74LS00N|	
+|8|S1|780565|1|SPDT Switch, Right Angle, 2.54mm pitch, Enable/Disable|
+|9|U2,U3,U4,U5|DIP-20_W7.62mm_LongPads|4|DRAM 256Kx4-bit DIP20|
+|10|J1|PinSocket_2x28_P2.54mm_Horizontal|1|Female trap door connector 2x28 2.54mm Right Angled|
+|11|U6|DIP-18_W7.62mm_LongPads|1|M6242B RTC|
+|12|R1|R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal|1|47ohm|
+|13|R2|R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal|1|510ohm|
+
+
 ## References
 1) https://github.com/SukkoPera/Raemixx500 
 2) https://amigawiki.org/dnl/schematics/A500_R6.pdf
