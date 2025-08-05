@@ -7,7 +7,7 @@ Reproduction of the PCB for an Ashcom 512kb memory expansion, for Amiga 500s.   
 The KiCad files (schematic and pcb) are available here.   Note the schematic and pcb were drawn separately.  I started with the intention of just re-creating the PCB, but then decided to create the schematic for completeness.  If there are any design issues with the expansion, then the issues will persist in this reproduction.  Along the same lines, neither I have replaced the battery with a CR2032.
 
 ## KiCAD Version 
-KiCAD version 9.0.3
+KiCAD version 9.0.3.   The schematic and PCB are contained in the schematic.   The schematic was reversed manually from the PCB, so could contain errors.   The PCB should be considered the golden source.
 
 ## Oddities
 The dsign seems a somewhat more basic (and cheaper) design that the official A501 expansion.  Perhaps related to this, a few curiousousities were found:-
@@ -22,10 +22,12 @@ In summary this seems a stripped down design when compared to the A501.  Does th
 ## Gerbers and PCB Production
 Gerber files were successfully produced by PCBWAY.   After building the board was tested in an Amiga 500 (1.3 workbench) with no issues.
 
-<img src='images/new_pcb.jog' width="50%" height="50%"/>
-<img src='images/built_pcb.jog' width="50%" height="50%"/>
+<img src='images/new_pcb.jpg' width="50%" height="50%"/>
+<img src='images/built_pcb.jpg' width="50%" height="50%"/>
 
-<img src='images/test_mem.jpg' width="25%" height="50%"/></img src='images/test_rtc.jpg' width="25%" height="25%"/> 
+Using Amiga Test Kit, the memory and RTC tested successfully:-
+
+<img src='images/test_mem.jpg' width="36%" height="36%"/> - <img src='images/test_rtc.jpg' width="30%" height="30%"/> 
 
 ## BOM
 
@@ -45,6 +47,9 @@ Gerber files were successfully produced by PCBWAY.   After building the board wa
 |12|R1|R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal|1|47ohm|
 |13|R2|R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal|1|510ohm|
 
+The PCB seems designed for a 2.4V or a 3.6V NiMh rechargeable battery.  R2 is sized to trickle charge a 2.4v cell at around 4mA.   R2 should be changed accordingly if a 3.6v cell is used.  By my calcs that would be around 200ohms, but I have not tested this configuration.
+
+The RTC components can be left out, and the board will then just function as a memory expansion (C7, C8, C9, Y9, BT1, D1, R2, U6, C9 can be omitted).
 
 ## References
 1) https://github.com/SukkoPera/Raemixx500 
