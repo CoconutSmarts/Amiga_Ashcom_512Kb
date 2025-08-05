@@ -20,7 +20,12 @@ The dsign seems a somewhat more basic (and cheaper) design that the official A50
 In summary this seems a stripped down design when compared to the A501.  Does this have any nagative implications?
 
 ## Gerbers and PCB Production
-I have not yet printed any PCBs, so this project is currently for documentation purposes only.  Gerber files are included but note these are experimental (ie untested).
+Gerber files were successfully produced by PCBWAY.   After building the board was tested in an Amiga 500 (1.3 workbench) with no issues.
+
+<img src='images/new_pcb.jog' width="50%" height="50%"/>
+<img src='images/built_pcb.jog' width="50%" height="50%"/>
+
+<img src='images/test_mem.jpg' width="25%" height="50%"/></img src='images/test_rtc.jpg' width="25%" height="25%"/> 
 
 ## BOM
 
