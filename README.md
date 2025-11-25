@@ -10,11 +10,11 @@ The KiCad files (schematic and pcb) are available here.   Note the schematic and
 KiCAD version 9.0.3.   The schematic and PCB are contained in the schematic.   The schematic was reversed manually from the PCB, so could contain errors.   The PCB should be considered the golden source.
 
 ## Oddities
-The dsign seems a somewhat more basic (and cheaper) design that the official A501 expansion.  Perhaps related to this, a few curiousousities were found:-
+The dsign seems a somewhat more basic (and cheaper) design that the official A501 expansion.  Perhaps related to this, a few curiousities were found:-
 1) Pin 5 of the memory chips are documented as Not Connected.   Yet the PCB connects these pins to GND.
 2) Pin 34 and Pin 33 on the connector are shorted.   Using Raemixx500 as a reference, these pins seem to be ~CLKCS and GND.  On an Amiga 501 the signal is sent to the RTC ~CS0 input, on the Ashcom it is grounded.  Another cost saving decision?
-3) The RTC clock circuit has only fix capacitors (the A501 has a fixed and variable capacitor with the crystal).
-4) The holes for C9 are present on the original PCB, but not populated.  As there are no component markings, Ive assumed this was intended for a capacitor across VDD and GND (on the RTC IC), but the manufacturer obviously didnt feel this capacitor was necessary
+3) The RTC clock circuit has no variable capacitor (the A501 has a fixed and variable capacitor with the crystal).
+4) The holes for C9 are present on the original PCB, but not populated.  As there are no component markings, Ive assumed this was intended for a capacitor across VDD and GND (on the RTC IC), but the manufacturer obviously didnt feel this capacitor was necessary.
 5) There are no decoupling capacitors across VCC and GND for U2 and U6.  Either the manufacturer didn't think decoupling capacitors were needed for U2 and U5, or it's another cost saving decision.
 
 In summary this seems a stripped down design when compared to the A501.  Does this have any nagative implications?
